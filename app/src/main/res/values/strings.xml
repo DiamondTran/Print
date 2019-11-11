@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Print</string>
+    <string name="title_activity_list_bill">ListBillActivity</string>
+    <string name="title_activity_infor_bill">InforBillActivity</string>
+</resources>

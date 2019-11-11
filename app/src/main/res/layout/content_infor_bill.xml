@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".InforBillActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_infor_bill">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:text="Pair"
+    android:textColor="@color/colorAccent"
+    android:id="@+id/pair">
+
+</TextView>
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/pair"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="40dp"
+
+            android:id="@+id/btnPrint"
+           android:textAllCaps="false"
+            android:text="In"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/btnTt"
+            android:layout_margin="5dp"
+
+            android:textAllCaps="false"
+            android:text="Thanh toán"
+             />
+
+    </LinearLayout>
+</RelativeLayout>

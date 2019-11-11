@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+  android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btnlistbill"
+        android:layout_marginVertical="@dimen/cardview_default_elevation"
+        android:text="Danh sách hóa đơn"
+        android:onClick="ListBill"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginVertical="@dimen/cardview_default_elevation"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btntk"
+        android:text="Thống kê"
+        android:onClick="Thongke"
+
+        />
+
+</LinearLayout>
